@@ -42,3 +42,22 @@ a {
   margin-bottom: 0.75rem;
   border-radius: 10px;
 }
+.footer {
+  margin-top: 2rem;
+}
+
+.footer-heart {
+  text-align: center;
+  font-family: open sans, sans-serif;
+}
+
+.footer-heart a {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  padding-bottom: 0.25em;
+  text-decoration: none;
+}
+
+.emoji {
+  vertical-align: middle;
+}
