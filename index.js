@@ -72,7 +72,7 @@ xhr.onload = function () {
 
   <a
 
-    href="https://www.youtube.com/embed/videoseries?list="
+    href="https://youtube.com/playlist?list=PLB4A-Br7OhApKCI0rPF5FwcQ3ExtJ-KQ1&feature=shared"
 
     ><h3>${chapter.name}</h3></a
 
