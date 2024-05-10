@@ -72,7 +72,7 @@ xhr.onload = function () {
 
   <a
 
-    href=${chapter.ytLink}
+    href="https://www.youtube.com/embed/videoseries?list="
 
     ><h3>${chapter.name}</h3></a
 
