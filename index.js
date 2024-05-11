@@ -1,5 +1,4 @@
 const xhr = new XMLHttpRequest();
-
 let urlFileName = document.location.pathname;
 
 
@@ -72,7 +71,7 @@ xhr.onload = function () {
 
   <a
 
-    href=${chapter.ytLink}
+    href=chapter.html?chapter=${encodeURIComponent(chapter.name)}&subject=${encodeURIComponent(urlFileName[0])}
 
     ><h3>${chapter.name}</h3></a
 
