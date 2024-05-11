@@ -25,6 +25,7 @@ xhr.onload = function() {
         .then(response => response.json())
         .then(data => {
           data.items.forEach(video => {
+            console.log(video.snippet.resourceId.videoId)
             const playlistCard = document.createElement("div");
 
             playlistCard.classList.add("playlist-card");
@@ -38,7 +39,7 @@ xhr.onload = function() {
               referrerpolicy="strict-origin-when-cross-origin"
               allowfullscreen
             ></iframe>
-            <a><h3>${video.snippet.title}</h3></a>`;
+            <a href = "https://www.youtube.com/watch?v=${video.snippet.resourceId.videoId}"><h3>${video.snippet.title}</h3></a>`;
 
             playlistContainer.append(playlistCard);
           })
